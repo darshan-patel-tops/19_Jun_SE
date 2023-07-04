@@ -22,8 +22,13 @@ int main()
 	int mummy;
 	if(mummy)
 	{
-		printf("bha%%jiya");
+		if(chutney)
+		{
+		printf("bhajiya");
+			
+		}
 	}
+	if()
 	else
 	{
 		printf("No Bhajiya for you");
