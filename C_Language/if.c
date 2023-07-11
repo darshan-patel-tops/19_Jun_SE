@@ -11,24 +11,35 @@ int main()
 	}
 	else
 	{
-	statement function
+	statement/function
 }
 	
 	
 	*/
+	
+	
+//	int pathik = 4;
+//	if(pathik>10)
+//	{
+//		printf("inside if");
+//	}
+//	else
+//	{
+//		printf("inside else");
+//	}
 	int bhajiya =1;
 	int chai =1;
 	int chutney=1;
 	int mummy;
-	if(mummy)
+	if(mummy>0)
 	{
 		if(chutney)
 		{
-		printf("bhajiya");
+		printf("bhajiya %d chai %d",bhajiya,chai);
 			
 		}
 	}
-	if()
+//	if()
 	else
 	{
 		printf("No Bhajiya for you");

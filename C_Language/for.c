@@ -3,10 +3,10 @@ int main()
 {
 
 int table=1;
-	for(table;table<=10;table++)
-	{
-		printf("%d * %d = %d \n",table,table,table*table);
-	}
+//	for(table;table<=10;table++)
+//	{
+//		printf("%d * %d = %d \n",table,table,table*table);
+//	}
 
 	/*
 	i = intilization
@@ -20,20 +20,20 @@ int table=1;
 	
 	*/
 	
-	int abc=10;
+	int abc=100;
 	
-	for(abc;abc>=5;--abc)
+	for(abc;abc>=5;abc--)
 	{	
 	printf("Hello World %d \n",abc);
 	}
 	
-	printf("\n\n\n");
-	int xyz=0;
-	
-	for(xyz;xyz<=5;xyz++)
-	{	
-	printf("Hello World %d \n",xyz);
-	}
+//	printf("\n\n\n");
+//	int xyz=0;
+//	
+//	for(xyz;xyz<=5;xyz++)
+//	{	
+//	printf("Hello World %d \n",xyz);
+//	}
 
 //int a=5,b,c,d,e,f,g,h,i,j;
 ////printf("%d\n",a);
@@ -73,11 +73,11 @@ int table=1;
 //y*=y;
 //printf("%d \n",y);
 
-int i=0;
-for(i;i<10;i++)
-{
-	printf("*\n");
-}
+//int i=0;
+//for(i;i<10;i++)
+//{
+//	printf("*\n");
+//}
 }
 
 

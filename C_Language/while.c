@@ -14,6 +14,7 @@ initilization
 while(condition)
 {
 	statement
+	updation
 }
 */
 int num=1; //intilization
@@ -24,7 +25,7 @@ while(num<=11) //condition
 {	
 	printf("while Loop running");
 	printf("%d \n",num);
-	num++;
+	num++; //updation
 
 
 }

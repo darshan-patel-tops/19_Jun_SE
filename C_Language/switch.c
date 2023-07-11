@@ -4,12 +4,20 @@ int main()
 {
     char ch;
     
-    
+//    int name =1;
     
 
     printf("Enter An Alphabet To See If It Is Vowel Or Constant:");
     scanf("%c",&ch);
+/*
 
+switch(expression)
+{
+	case condition:
+		statement /function
+		break;
+}
+*/
     switch(ch)
     {
         case 'a':

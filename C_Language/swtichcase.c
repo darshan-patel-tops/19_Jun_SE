@@ -3,7 +3,7 @@
 int main()
 {
 	int days=1;
-	
+	printf("line 5 %d\n",days);
 	
 	/*
 	switch(pass)
@@ -14,9 +14,15 @@ int main()
 	
 	
 	*/
-	days =8;
+//	days =8;
+//	printf("line 17 %d\n",days);
+	days =10;
+//	printf("line 20 %d\n",days);
 	switch(days)
 	{
+//		case 10:
+//			printf("amzing day \n");
+//			break;
 		case 1:
 			printf("Monday\n");
 			break;
