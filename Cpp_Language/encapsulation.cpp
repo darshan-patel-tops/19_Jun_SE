@@ -6,6 +6,13 @@ using namespace std;
 
 class mobile
 {
+	
+	/*
+	
+	encapsulation is 
+	wrapping up the 
+	data in the single unit
+	*/
 	public :
 		void call()
 		{
@@ -36,13 +43,13 @@ class mobile
 int main()
 {
 
-mobile jaiminkamobile;
+mobile sunil;
 
-jaiminkamobile.call();
-jaiminkamobile.sms();
-jaiminkamobile.utube();
-jaiminkamobile.muzik();
-jaiminkamobile.google();
+sunil.call();
+sunil.sms();
+sunil.utube();
+sunil.muzik();
+sunil.google();
 
 
 

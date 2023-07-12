@@ -46,7 +46,7 @@ class mobile
 
 int main()
 {
-	/*to use the function of class we have to use object*/
+	/*to use the function of class we have to use/make object*/
 	
 	mobile m;
 	
