@@ -18,18 +18,20 @@ class calculator
 class advance_calculator : public calculator
 {
 	public :
+			using	calculator::add;
 		void add(int a,int b , int c)
 		{
 //			cout<<"Enter three numbers:"<<endl;
 //			cin>>a,b,c;
 		cout<<"Inside child calc"<<endl;
-			cout<<"advance_calculator= "<<a+b+c;
+			cout<<"advance_calculator= "<<a+b+c<<endl;
 		}	
 };
 
 int main()
 {
+	
 	advance_calculator calci;
-//	calci.add(1,2,4);
-//	calci.add1();
+	calci.add(1,2,4);
+	calci.add(1,2);
 }
