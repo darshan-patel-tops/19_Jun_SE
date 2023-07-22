@@ -1,0 +1,10 @@
+
+
+create table users (id int PRIMARY key AUTO_INCREMENT,username varchar(50) UNIQUE,email varchar(50) UNIQUE,mobile varchar(50),password varchar(50))
+
+alter table users ADD (birthday varchar(50))
+
+INSERT into users(username,email,mobile,password,birthday) VALUES('brijesh','brijesh@mail.com','12312123','123','27')
+
+SELECT * from users
+SELECT  email  from users
