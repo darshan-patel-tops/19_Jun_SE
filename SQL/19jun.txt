@@ -1,4 +1,52 @@
+CRUD
+Create
+Read
+Update
+Delete
 
+
+Where
+
+
+
+CREATE DATABASE 19jun_se
+
+CREATE table sunil 
+(
+    id int PRIMARY key AUTO_INCREMENT
+);
+    
+
+create table users
+(
+	id int PRIMARY key AUTO_INCREMENT,
+    name varchar(50),
+ mobile varchar(50),
+ username varchar(50) UNIQUE KEY,
+ email varchar(50) UNIQUE KEY
+);
+
+alter table users add (password varchar(50));
+
+INSERT into users (name,username) VALUES ('admin','admin_123');
+
+INSERT into users (name,username,email) VALUES ('admin','admin_1234','admin@mail.com');
+INSERT into users (name,username,email,password) VALUES ('admin','admin_12345','admi1n@mail.com','123456789');
+INSERT into users (name) VALUES ('admin');
+
+SELECT * from users
+SELECT name from users
+SELECT name,email from users
+
+
+SELECT * from users where id =3;
+
+
+UPDATE  users  SET name = 'admin1' where id = 5;
+UPDATE users SET name = "admin2" , mobile = "9999999999" where id =3;
+
+DELETE from users
+DELETE from users where id =6;
 
 create table users (id int PRIMARY key AUTO_INCREMENT,username varchar(50) UNIQUE,email varchar(50) UNIQUE,mobile varchar(50),password varchar(50))
 
