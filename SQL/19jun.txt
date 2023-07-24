@@ -56,3 +56,14 @@ INSERT into users(username,email,mobile,password,birthday) VALUES('brijesh','bri
 
 SELECT * from users
 SELECT  email  from users
+
+
+drop table users
+TRUNCATE table users
+
+
+DELETE from persons where id =1;
+COMMIT
+
+DELETE from persons where id =2;
+ROLLBACK
