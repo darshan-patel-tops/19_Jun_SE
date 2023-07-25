@@ -4,6 +4,14 @@ Read
 Update
 Delete
 
+sql Aggrigate functions
+1. SUM
+2. MAX
+3. MIN
+4. COUNT
+5. FIRST
+6. LAST
+7. AVG
 
 Where
 
@@ -67,3 +75,29 @@ COMMIT
 
 DELETE from persons where id =2;
 ROLLBACK
+
+as stands for alias
+
+SELECT sum(salary) as total_salary from persons
+SELECT sum(salary) as total from persons
+SELECT avg(salary) as average from persons
+SELECT max(salary) as average from persons
+SELECT min(salary) as average from persons
+
+
+SELECT * from persons ORDER by salary
+SELECT * from persons ORDER by  salary asc
+SELECT * from persons ORDER by  salary desc
+
+
+CREATE table employee (
+    
+id int PRIMARY key AUTO_INCREMENT,
+    name varchar(50),
+    salary varchar(50),
+    cid int,
+    FOREIGN key(cid) REFERENCES country(id)
+
+
+
+);
