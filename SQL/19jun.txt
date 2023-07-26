@@ -101,3 +101,20 @@ id int PRIMARY key AUTO_INCREMENT,
 
 
 );
+
+
+CREATE TABLE customer (
+id int PRIMARY KEY AUTO_INCREMENT,
+    name varchar(50),
+    email varchar(50),
+    country_id int,
+    FOREIGN KEY(country_id) REFERENCES country(id)
+
+)
+
+
+SELECT * from customer JOIN country on customer.country_id = country.id
+SELECT * from customer LEFT join country on customer.country_id = country.id
+SELECT * from customer RIGHT  join country on customer.country_id = country.id
+SELECT * from birthday INNER join success on birthday.id = success.birthday_id
+SELECT customer.name,customer.email,country.country_name FROM customer LEFT join country on customer.country_id = country.id;
