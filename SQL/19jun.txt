@@ -119,3 +119,5 @@ SELECT * from customer LEFT join country on customer.country_id = country.id
 SELECT * from customer RIGHT  join country on customer.country_id = country.id
 SELECT * from birthday INNER join success on birthday.id = success.birthday_id
 SELECT customer.name,customer.email,country.country_name FROM customer LEFT join country on customer.country_id = country.id;
+SELECT * from customer full outer join country on customer.country_id = country.id
+SELECT * from customer full join country on customer.country_id = country.id
