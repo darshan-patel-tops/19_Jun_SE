@@ -89,7 +89,10 @@ declare cs1 cursor for select name from custmoer;
 end //
 32. CREATE TRIGGER ins_sum BEFORE INSERT ON person
        FOR EACH ROW SET @sum = @sum + NEW.salary;
-
-
+33. DECLARE MY_CUSR CURSOR FOR SELECT * FROM CUSTOMERS;
+OPEN MY_CUSR;
+FETCH NEXT FROM MY_CUSR;
+CLOSE MY_CUSR;
+DEALLOCATE MY_CUSR;
 
 
