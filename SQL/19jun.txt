@@ -121,3 +121,31 @@ SELECT * from birthday INNER join success on birthday.id = success.birthday_id
 SELECT customer.name,customer.email,country.country_name FROM customer LEFT join country on customer.country_id = country.id;
 SELECT * from customer full outer join country on customer.country_id = country.id
 SELECT * from customer full join country on customer.country_id = country.id
+
+
+SELECT *  from customer where  name LIKE  "a%"
+SELECT *  from customer where  name LIKE  "%a"
+SELECT *  from customer where  name LIKE  "%a%"
+
+
+CREATE view name as SELECT name from employee
+
+SELECT name from human
+where  salary in(10000)
+
+
+SELECT * from persons
+where country in("india","USA","UAe")
+
+
+SELECT name from customer where country_id=1,
+where  name from country where id = country_id 
+
+
+
+DELIMITER//
+CREATE PROCEDURE my_pro (in salary_check int(10))
+BEGIN
+SELECT * from employee where salary = salary_check;
+end//
+DELIMITER;
