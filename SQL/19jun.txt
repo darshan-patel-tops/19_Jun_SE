@@ -104,6 +104,16 @@ id int PRIMARY key AUTO_INCREMENT,
 );
 
 
+DELIMITER //
+CREATE PROCEDURE my_pro(IN number int(10))
+ BEGIN
+ SELECT * FROM person WHERE salary = number;
+ END //
+DELIMITER ;
+
+call my_pro (50000)
+
+
 CREATE TABLE customer (
 id int PRIMARY KEY AUTO_INCREMENT,
     name varchar(50),
