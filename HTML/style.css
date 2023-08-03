@@ -1,0 +1,12 @@
+h1{
+    font-size: larger;
+    color: violet;
+}
+
+.first h1{
+    color: yellow;
+}
+
+.second h1 {
+    color: yellowgreen;
+}
