@@ -4,7 +4,7 @@ using namespace std;
  class dada
 {
 	public :
-	virtual	void  zameen()
+		void  zameen()
 		{
 			cout<<"dada ki zameen"<<endl;
 			}	
@@ -14,7 +14,7 @@ class papa : public virtual dada
 {
 			public :
 //				
-//	using dada::zameen;z
+	using dada::zameen;
 	
 		
 
@@ -37,7 +37,7 @@ class chacha : public  dada
 class beta :public papa,public chacha
 {
 	public :
-
+//	dada::zameen();
 		void house()
 		{
 			cout<<"house"<<endl;
