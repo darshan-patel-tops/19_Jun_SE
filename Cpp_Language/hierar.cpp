@@ -37,3 +37,9 @@ class baapkabadabhai : public dada
 			cout<<"baapkabadabhai ki zameen"<<endl;	
 		}	
 };
+
+
+main()
+{
+	
+}

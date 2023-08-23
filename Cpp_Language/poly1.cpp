@@ -28,5 +28,5 @@ int main()
 {
 	calc2 c;
 	
-	c.add(1,2,3);
+	c.add(1,2);
 }
