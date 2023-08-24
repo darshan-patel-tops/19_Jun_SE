@@ -23,7 +23,7 @@ class papa : public virtual dada
 						cout<<"car"<<endl;
 					}
 };
-class chacha : public  dada
+class chacha : public  virtual dada
 {
 			public :
 //					using dada::zameen;
