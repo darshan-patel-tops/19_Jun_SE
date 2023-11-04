@@ -19,7 +19,7 @@ class mother
 		}	
 };
 
-class son	:public father,public mother
+class son	: public father , public mother
 {
 	public:
 		void land()
